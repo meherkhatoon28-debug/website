@@ -32,7 +32,7 @@ export default function Home() {
 
         <div className="px-10 py-10 flex flex-col">
           <img
-            src="/PFP.jpg"
+            src="/pfp.jpg"
             alt="Profile"
             className="w-125 h-150 object-cover rounded-t-full shadow-2xl shadow-slate-700 border-4 border-white transition-transform duration-300 hover:scale-105 hover:z-10"
           />
