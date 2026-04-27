@@ -37,6 +37,10 @@ body {
   z-index: 50;
 }
 
+.shadow {
+  box-shadow: 10px 10px 0px -2px #1E293B;
+}
+
 
 .taped-photo {
   position: relative;
