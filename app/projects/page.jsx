@@ -56,11 +56,7 @@ function ProjectModal({ project, onClose }) {
       >
 
         <div className="p-8 pb-2 flex justify-between items-start">
-          <div>
-            <span className="text-[10px] font-black px-2 py-1 rounded bg-slate-100 text-slate-500 uppercase tracking-tighter">Project Overview</span>
-            <h2 className="text-4xl font-bold text-gray-800 mt-1">{project.title}</h2>
-          </div>
-          <button onClick={onClose} className="text-4xl text-gray-300 hover:text-black transition-all">×</button>
+          <button onClick={onClose} className="text-4xl text-gray-300 align-right">×</button>
         </div>
 
         <div className="px-8 py-4">
@@ -95,13 +91,6 @@ function ProjectModal({ project, onClose }) {
             </p>
           </div>
 
-          <div className="mt-6 flex gap-2 flex-wrap">
-            {project.tags?.map(tag => (
-              <span key={tag} className="bg-blue-300 text-blue-800 text-[10px] font-bold px-3 py-1 rounded-full uppercase italic">
-                {tag}
-              </span>
-            ))}
-          </div>
         </div>
       </div>
     </div>

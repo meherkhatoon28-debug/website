@@ -11,9 +11,6 @@ export default function ProjectCard({ project, onClick }) {
         ${isLocked ? 'opacity-50 grayscale cursor-default' : 'cursor-pointer hover:-translate-y-2 hover:shadow-xl'}
         bg-blue-200 border-blue-900`}
         >
-            <span className="text-[10px] font-bold px-2 py-1 rounded bg-blue-100 text-blue-700 uppercase">
-                {status}
-            </span>
 
             <div className="mt-4 bg-white rounded-2xl h-40 flex items-center justify-center overflow-hidden border border-yellow-100">
                 {isLocked ? (

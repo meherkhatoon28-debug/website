@@ -50,7 +50,7 @@ export default function Experience() {
                                 <ul className="space-y-4">
                                     {item.bullets.map((bullet, idx) => (
                                         <li key={idx} className="text-slate-100 flex gap-4 text-md leading-relaxed font-medium">
-                                            <span className="text-blue-400 text-xl flex-shrink-0">•</span>
+                                            <span className="text-white text-xl flex-shrink-0">-</span>
                                             <span>{bullet}</span>
                                         </li>
                                     ))}
