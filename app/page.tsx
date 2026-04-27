@@ -35,7 +35,6 @@ export default function Home() {
             className="w-125 h-150 object-cover rounded-t-full shadow-2xl shadow-slate-700 border-4 border-white transition-transform duration-300 hover:scale-105 hover:z-10 shadow"
           />
 
-          {/* Column 1: About Me Box */}
           <div className="flex flex-col justify-evenly border-2 border-white/10 h-60 w-100 rounded-[2rem] bg-[#1E293B]/70 backdrop-blur-xl mt-8 px-8 py-6 transition-all duration-300 hover:scale-[1.02] shadow-[10px_10px_0px_-2px_#1E293B]">
             <h1 className="text-3xl font-bold text-center border-b-4 border-blue-500 pb-2 mb-4 text-white">About Me!</h1>
             <p className="text-sm font-medium leading-relaxed text-slate-100">
@@ -46,7 +45,6 @@ export default function Home() {
           </div>
         </div>
 
-        {/* Column 2: General Information Section */}
         <div className="flex flex-col justify-start border-2 border-white/10 min-h-[500px] w-150 rounded-[2rem] bg-[#1E293B]/70 backdrop-blur-xl mt-8 px-8 py-8 transition-all duration-300 hover:scale-[1.02] shadow-[10px_10px_0px_-2px_#1E293B]">
           <h1 className="text-3xl font-bold text-center border-b-4 border-blue-500 pb-2 mb-8 hover:border-blue-400 transition-all duration-300 text-white">
             General Information
@@ -73,10 +71,8 @@ export default function Home() {
           </div>
         </div>
 
-        {/* Column 3: Stacked Column for Get in Touch and Spotify */}
         <div className="flex flex-col gap-8 mr-5">
 
-          {/* Get in Touch Box */}
           <div className="flex flex-col justify-between border-2 border-white/10 min-h-[400px] w-90 rounded-[2rem] bg-[#1E293B]/70 backdrop-blur-xl mt-8 px-8 py-10 transition-all duration-300 hover:scale-[1.02] shadow-[10px_10px_0px_-2px_#1E293B]">
             <div>
               <h1 className="text-3xl font-bold text-center border-b-4 border-blue-500 pb-4 mb-8 text-white">
@@ -118,7 +114,6 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Future Spotify Placeholder Box */}
           <div className="flex flex-col items-center justify-center border-2 border-white/10 h-40 w-90 rounded-[2rem] bg-[#1E293B]/70 backdrop-blur-xl transition-all duration-300 hover:scale-[1.02] shadow-[10px_10px_0px_-2px_#1E293B]">
             <div className="flex flex-col items-center justify-center border-2 border-white/10 h-40 w-90 rounded-[2rem] bg-[#1E293B]/70 backdrop-blur-xl transition-all duration-300 hover:scale-[1.02] shadow-[10px_10px_0px_-2px_#1E293B] px-6">
               <Spotify />
