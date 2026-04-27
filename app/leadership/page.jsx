@@ -37,11 +37,11 @@ export default function Leadership() {
                         viewport={{ once: true }}
                         transition={{ delay: index * 0.1 }}
                         whileHover={{ y: -12 }}
-                        className="relative group border-2 border-white/10 rounded-[3rem] bg-[#1E293B]/80 backdrop-blur-xl p-10 shadow-[12px_12px_0px_-2px_#1E293B] transition-all hover:border-blue-500/50 hover:shadow-[15px_15px_25px_rgba(37,99,235,0.2)]"
+                        className="relative group border-2 border-white/10 rounded-[3rem] bg-[#1E293B]/80 backdrop-blur-xl p-10 shadow-[12px_12px_0px_-2px_#1E293B] transition-all"
                     >
 
                         <div className="flex flex-col items-center text-center">
-                            <div className="w-32 h-32 bg-white rounded-full flex items-center justify-center p-5 mb-8 shadow-2xl border-4 border-slate-800 group-hover:border-blue-500 group-hover:scale-110 transition-all duration-500 ease-out">
+                            <div className="w-32 h-32 bg-white rounded-full flex items-center justify-center p-5 mb-8 shadow-2xl border-4 border-slate-800">
                                 <img
                                     src={item.logo}
                                     alt="Icon"
@@ -56,7 +56,6 @@ export default function Leadership() {
                             <p className="text-blue-200 font-bold text-lg mb-2 opacity-90">{item.subtitle}</p>
                             <p className="text-slate-400 text-sm font-black mb-6 tracking-widest">{item.date}</p>
 
-                            <div className="w-16 h-1.5 bg-blue-500 mb-6 rounded-full group-hover:w-32 group-hover:bg-blue-400 transition-all duration-700"></div>
 
 
                             <p className="text-slate-100 text-base leading-relaxed opacity-90 px-4">
